@@ -1,34 +1,358 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Personal Portfolio Website</title>
-    <!----CSS link----->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Priyansh's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="images/favicon.png" >
 
-    <div class="hero">
-        <nav>
-            <img src="./img/logo.png" class="logo">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Articles</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <a href="#" class="btn">Buy me a Coffee!</a>
-        </nav>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-        <div class="content">
-            <span class="title">Undergraduate B.Tech CSE Student</span>
-            <h1>Hello, I’m <span>Priyansh</span></h1>
-            <p>I’m working on a professional, visually sophisticated and technologically proficient, responsive and multi-functional Reactive Portfolio Webpage</p>
-            <p>Coming Soon!</p>
-            <a href="#" class="btn">Download CV</a>
+
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+        <a href="#" class="navbar-brand">Priyansh Khare</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+            </div>
+            <div class="navbar-nav ml-auto">
+              <a href="#" class="nav-item nav-link active">About</a>
+              <a href="#skills" class="nav-item nav-link" id='s22'>Skills</a>
+              <a href="#education" class="nav-item nav-link">Experience</a>
+              <a href="#projects" class="nav-item nav-link">Projects</a>
+              <a href="#achivements" class="nav-item nav-link">Achivements</a>
+              <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
         </div>
-    </div>
+    </nav>
 
-</body>
+    <section class="section light1" id="s1">
+      <div class="container head">
+        <div class="row">
+          <div class="col-md-7 col-sm-12">
+            <div class="box"><div class="boxh"><img src="images/"></div></div>
+          </div>
+
+          <div class="col-md-5 col-sm-12">
+            <div class="box2">
+
+              <span class="first"> HELLO EVERYONE , I AM</span>
+              <br>
+              <p class="name"> Priyansh <br> Khare</p>
+              <br>
+              <span class="first"> Student At Lovely Professional Universitry</span>
+              <br><br>
+              <p class="about">I am currently studying at LPU, Phagwara pursuing B.Tech in Computer Science and Engineering. I am a 1st Year Student. My primary language is Python.</p>
+
+              <div class="about2">
+                <i class="far fa-calendar-alt"></i> 9th August, 2004 <br>
+                <i class="fas fa-phone"></i> 70074 9902<br>
+                <i class="far fa-envelope"></i> mrpriyanshuniverse@gmail.com <br>
+              </div>
+              <br>
+              <div class="contact">
+                <a href="https://www.instagram.com/mrpriyanshuniverse/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/priyanshk09/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/priyanshk09" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+              </div>
+              <br>
+              <div class="downloadcv">
+                <a href="files/Suryaresume.pdf" target="_blank" class="btn">Download CV</a>
+              </div>
+              <br>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <a name="skills"></a>
+    <section class="section light" id="s2">
+      <div class="container skills">
+
+        <div class="heading-section text-center ftco-animate">
+            <h2 class="mb-4">My Skills</h2>
+            <p>Skill and Confidence are an unconquered army.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 animate-box">
+            <div class="progress-wrap ftco-animate">
+              <h3>Web Development</h3>
+              <div class="progress">
+                <div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
+                  aria-valuemin="0" aria-valuemax="100" style="width:55%">
+                  <span>55%</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 animate-box">
+            <div class="progress-wrap ftco-animate">
+              <h3>Social Media Manager</h3>
+              <div class="progress">
+                <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+                  aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                  <span>95%</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 animate-box">
+            <div class="progress-wrap ftco-animate">
+              <h3>Python3</h3>
+              <div class="progress">
+                <div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
+                  aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                  <span>80%</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 animate-box">
+            <div class="progress-wrap ftco-animate">
+              <h3>Javascript</h3>
+              <div class="progress">
+                <div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+                  aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                  <span>20%</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 animate-box">
+            <div class="progress-wrap ftco-animate">
+              <h3>HTML5</h3>
+              <div class="progress">
+                <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+                  aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                  <span>75%</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 animate-box">
+            <div class="progress-wrap ftco-animate">
+              <h3>MS Office</h3>
+              <div class="progress">
+                <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+                  aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                  <span>80%</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 animate-box">
+            <div class="progress-wrap ftco-animate">
+              <h3>CSS</h3>
+              <div class="progress">
+                <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+                  aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                  <span>90%</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <a name="education">
+    <section class="section light1" id="s3">
+      <div class="container education">
+        <div class="heading-section text-center ftco-animate">
+            <h2 class="mb-4">Education</h2>
+        </div>
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <ul class="list">
+                <li>
+                <span></span>
+                  <div class="media">
+                    <div class="d-flex">
+                      <p>September 2022 to Present</p>
+                    </div>
+                    <div class="media-body">
+                      <h4>Lovely Professional University</h4>
+                      <p>Engineering College <br />CGPA : 1st Semester undergoing</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <span></span>
+                  <div class="media">
+                    <div class="d-flex">
+                      <p>April 2021 to April 2022</p>
+                    </div>
+                    <div class="media-body">
+                      <h4>Central Academy</h4>
+                      <p>Senior Secondary School <br />Score : 70%</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <span></span>
+                  <div class="media">
+                    <div class="d-flex">
+                      <p>April 2019 to April 2020</p>
+                    </div>
+                    <div class="media-body">
+                      <h4>Central Academy</h4>
+                      <p>High School <br />Score : 95%</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="heading-section text-center ftco-animate">
+            <h2>Work Experience: </h2>
+            <h5>Still working on gaining more Experience</h5>
+        </div>
+      </div>
+    </section>
+    </a>
+
+    <a name="projects"></a>
+    <section class="section light" id="s4">
+      <div class="container projects">
+
+        <div class="heading-section text-center ftco-animate">
+            <h2 class="mb-4">Projects</h2>
+            <p>A good plan today is better than a perfect plan tomorrow.</p>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 outerbox">
+            <div class="item">
+              <div class="image">
+                <div class="icontainer">
+                  <img src="images/img1.jpg" alt="Avatar" class="img">
+                  <div class="overlay">
+                    <div class="text">A Basic E-Commerce Website using HTML, CSS. I have designed this website in CipherSchools Assignment. </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text2">
+                <h5>E-Commerce Website using HTML & CSS</h5>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 outerbox">
+            <div class="item">
+              <div class="image">
+                <div class="icontainer">
+                  <img src="images/img2.png" alt="Avatar" class="img">
+                  <div class="overlay bottom">
+                    <div class="text">A basic website which tells the HEX Code of the Color you choose</div>
+                  </div>
+                </div>
+              </div>
+              <div class="text2">
+                <h5>HTML Color Picker</h5>
+                <a href="https://github.com/PriyanshK09/HTML-Color-Picker" target="_blank">Click Here</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 outerbox">
+            <div class="item">
+              <div class="image">
+                <div class="icontainer">
+                  <img src="images/img1.jpg" alt="Avatar" class="img">
+                  <div class="overlay">
+                    <div class="text">The given project will be converting the given text as input by the user to the speech by saving the output (.mp3) file on your local machine and playing the same on the Backend</div>
+                  </div>
+                </div>
+              </div>
+              <div class="text2">
+                <h5>Python Text to Speech Converter</h5>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <a name="achivements"></a>
+    <section class="section light1" id="s5">
+      <div class="container achivements">
+
+        <div class="heading-section text-center ftco-animate">
+            <h2 class="mb-4">Achivements</h2>
+            <p>Happiness lies in the joy of achievement and the thrill of creative effort.</p>
+        </div>
+
+        <div class="mainbox">
+          <div class="outer">
+            <center><h4>Adding in the coming FUTURE!</h4></center>
+          </div>
+      </div>
+    </section>
+
+    <a name="contact"></a>
+    <section class="section light" id="s6">
+      <div class="container contactme">
+        <h2 class="mb-4">Contact Me</h2>
+        <div class="container2">
+            <div class="col-md-4 col-sm-6">
+              <div class="contact">
+                <a href="https://www.instagram.com/mrpriyanshuniverse/" target="_blank"><i class="fab fa-instagram" style="color:rgb(0, 0, 0)"></i>Instagram </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="contact">
+                <a href="https://www.linkedin.com/in/priyanshk09/" target="_blank"><i class="fab fa-linkedin" style="color:#0077B5"></i>Linkedin </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="contact">
+                <a href="https://www.hackerrank.com/priyanshkhare491" target="_blank"><i class="fab fa-hackerrank" style="color:#2EC866"></i>Hackerrank </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="contact">
+                <a href="https://github.com/PriyanshK09" target="_blank"><i class="fab fa-github" style="color:#000000"></i>Github </a>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="contact">
+                <a href="https://twitter.com/PriyanshK09" target="_blank"><i class="fab fa-twitter" style="color:#1DA1F2"></i>Twitter </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="contact">
+                <a href="https://www.youtube.com/channel/UCxeJPYAlKyZ1as2pCjDyEeQ" target="_blank"><i class="fab fa-youtube" style="color:#FF0000"></i>Youtube </a>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="light1" id="s7">
+      Developed by Priyansh Khare
+    </section>
+
+
+
+  </body>
 </html>
