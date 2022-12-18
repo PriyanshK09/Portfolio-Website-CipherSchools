@@ -69,16 +69,11 @@ html {
     border-radius: 10px;
     width: 100%;
     height: auto;
-    transition: 3s all;
   }
   
   #s1 .boxh{
     overflow: hidden;
     border-radius: 10px;
-  }
-  
-  #s1 .box img:hover{
-    transform: scale(1.2);
   }
   
   #s1 .box2{
